@@ -1,6 +1,7 @@
 # Частотный словарь параллельного корпуса
 ---
 - FreqDict_Parallel - исходные тексты русско-английского и англо-русского корпусов в формате xml
+- lemmatization_of_corpora.ipynb - код для предварительной обработки данных
 - Aligned_data - данные обоих корпусов после обработки и использования [fast_align](https://github.com/clab/fast_align) (в формате `i-j`)
 - output_eng_rus-final.csv - [список слов](https://wiki.apertium.org/wiki/Aligning_a_corpus_with_fast_align) русско-английского корпуса (сначала обработка, потом выравнивание)  
 - output_rus_eng-final.csv - список слов англо-русского корпуса (сначала обработка, потом выравнивание)  
